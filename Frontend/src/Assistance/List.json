@@ -1,0 +1,58 @@
+[
+    {
+        "id": "1",
+        "name": "Cource1",
+        "title": "Software Engineer", 
+        "price": 0,
+        "catagory": "Paid",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    },
+    {
+        "id": "2",
+        "name": "Cource2",
+        "title": "Product Designer",
+        "price": 0,
+        "catagory": "Paid",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    },
+    {
+        "id": "3",
+        "name": "Cource3",
+        "title": "Data Scientist",
+        "price": 0,
+        "catagory": "Paid",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    },
+    {
+        "id": "4",
+        "name": "Cource4",
+        "title": "UX Researcher",
+        "price": 0,
+        "catagory": "Paid",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    },
+    {
+        "id": "5",
+        "name": "Cource5",
+        "title": "Project Manager",
+        "price": 0,
+        "catagory": "Paid",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    },
+    {
+        "id": "6",
+        "name": "Cource6",
+        "title": "Content Strategist",
+        "price": 0,
+        "catagory": "Paid",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    },
+    {
+        "id": "7",
+        "name": "Cource7",
+        "title": "Marketing Specialist",
+        "price": 0,
+        "catagory": "Paid",
+        "image": "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+    }
+]

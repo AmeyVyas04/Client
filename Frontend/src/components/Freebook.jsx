@@ -1,0 +1,25 @@
+import React from 'react';
+import list from '../Assistance/List.json';
+import Cards from './Cards.jsx';
+
+function Freebook() {
+    const freecourse = list.filter((data) => data.catagory === 'Paid').slice(0,4);
+          
+    return (
+        <>
+            <div >
+                <div>
+                    <div className='font-bold px-20 mb-10 mt-4 text-3xl'><h3>Customized Course Recommendations for You</h3></div>
+                </div>
+                <div className='md:flex'>
+                    
+                    {freecourse.map((item) => (
+                        <Cards item={item} key={item.id} />
+                    ))}
+                </div>
+            </div>
+        </>
+    );
+}
+
+export default Freebook;
