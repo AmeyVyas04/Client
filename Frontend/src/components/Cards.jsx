@@ -1,7 +1,14 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 function Cards({ item }) {
     console.log(item);
+    const navigate = useNavigate();
+    const handleViewProfile = () => {
+        
+        navigate(`/Courses/${item.endpoint}`);
+    };
+
     return (
         <>
             <div className="card bg-navy w-56 ml-14 md:w-96 shadow-xl m-2 mb-20 dark:bg-slate-900 dark:text-white 
@@ -19,8 +26,13 @@ function Cards({ item }) {
                     </h2>
                     <p>{item.title}</p>
                     <div className="card-actions justify-end">
-                        <a href=""><div className="badge badge-outline">View</div></a>
-                       <a href=""> <div className="badge badge-outline  bg-green-400 text-black">Buy</div></a>
+                        
+                        <button 
+                            className="px-6 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold hover:bg-blue-700 transition-colors duration-200 dark:bg-blue-700 dark:hover:bg-blue-800 shadow-sm"
+                            onClick={handleViewProfile} 
+                        >
+                            View Profile
+                        </button>
                     </div>
                 </div>
             </div>

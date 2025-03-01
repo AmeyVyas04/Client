@@ -35,7 +35,7 @@ function Nav() {
   const navitems=(<>
        <li><a href='/'>Home</a></li>
       <li>
-          <a href='/course'>Cources</a>
+          <a href='/Courses'>Cources</a>
       </li>
       <li><a>Order Flow</a></li>
       <li><a>Market Profile</a></li>

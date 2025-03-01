@@ -1,6 +1,7 @@
 [
     {
         "id": "1",
+        "endpoint":"Order Flow Intraday Course Hindi",
         "name": "Cource1",
         "title": "Software Engineer", 
         "price": 0,
@@ -9,6 +10,7 @@
     },
     {
         "id": "2",
+        "endpoint":"Order Flow Intraday Course English",
         "name": "Cource2",
         "title": "Product Designer",
         "price": 0,
@@ -17,6 +19,7 @@
     },
     {
         "id": "3",
+        "endpoint":"Market Profile Trading Course",
         "name": "Cource3",
         "title": "Data Scientist",
         "price": 0,
