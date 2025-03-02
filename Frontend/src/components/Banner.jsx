@@ -1,29 +1,52 @@
 import React from 'react'
 
+import { TiTick } from "react-icons/ti";
+
+
 function Home() {
   return (
    <>
    <div className='flex max-w-screen-2xl container mx-auto md:px-20 px-4 flex-col md:flex-row justify-evenly'>
     <div className='w-full md:w-1/2 '>
-    <div className='space-y-6 mt-20  md:mt-32'>
-    <h1 className='font-bold text-4xl hover:scale-105 transition-all duration-300 ease-in-out'>Hello welocme here to learn Something New About <span className='text-green-500 '>Stock Market</span></h1>
-   <p className='hover:scale-105 transition-all duration-300 ease-in-out '>At Momentrade, we believe that trading should be accessible and exciting for everyone. Our mission is to empower traders by teaching them the power of order flow analysis, a vital tool for understanding market movements and making informed decisions.
+    <div className='space-y-8 mt-20 md:mt-32'>
+    <h1 className='font-bold text-4xl text-purple-950'>Master the art of reading the Market!</h1>
+    
+    <h3 className='text-xl font-bold text-purple-950'>Elevate your trading with the powerful combination of  <br /><span className='text-purple-700'>Market Profile & Orderflow</span></h3>
+    
+    <div className='font-roboto space-y-6'>
+      <div className='flex items-center'>
+        <TiTick className="text-3xl mr-2 text-green-500" />
+        <p className='text-purple-900'>Comprehensive Training on Market Profile & Orderflow</p>
+      </div>
+      <div className='flex items-center'>
+        <TiTick className="text-3xl mr-2 text-green-500" />
+        <p className='text-purple-900'>Expert Guidance from Experienced Traders</p>
+      </div>
+      <div className='flex items-center'>
+        <TiTick className="text-3xl mr-2 text-green-500" />
+        <p className='text-purple-900'>Tailored Learning for All Levels</p>
+      </div>
+      <div className='flex items-center'>
+        <TiTick className="text-3xl mr-2 text-green-500" />
+        <p className='text-purple-900'>Learn Practical Strategies Not Just Theory</p>
+      </div>
+      <div className='flex items-center'>
+        <TiTick className="text-3xl mr-2 text-green-500" />
+        <p className='text-purple-900'>Trusted by 1000+ Successful Students</p>
+      </div>
+    </div>
+    
 
-Our courses are designed for traders of all skill levels, whether you're just starting or looking to advance your trading expertise. With clear and easy-to-follow lessons, you'll learn how to read market trends, identify key signals, and seize opportunities for success.
-
-Join us at Momentrade to unlock your trading potential. Dive into a world where knowledge meets opportunity, and start trading with confidence! Let us guide you on your journey to becoming a proficient trader.</p>
-<h1 className='text-2xl font-extrabold font-sans hover:scale-105 transition-all duration-300 ease-in-out'>Revolutionize Your Trading Journey with <span className='text-red-500'>Momen</span>trade </h1>
-
-<div className="mt-8">
-  <a href="/course">
-    <button className="btn btn-success">Join Now</button>
-  </a>
-</div>
+    <div className="mt-20">
+      <a href="/course">
+        <button className="btn btn-success bg-purple-950 text-white">Join Now</button>
+      </a>
+    </div>
 
     </div>
     </div>
-    <div className=' w-full md:w-5/12 transform scale-95 transition-all duration-300 ease-in-out hover:opacity-100 hover:scale-100'>
-    <img src="Bannerimage.jpg" alt="" className='w-30  md:max-w-xl md:ml-20 mt-20' />
+    <div className='w-full md:w-5/12'>
+    <img src="Banner.png" alt="" className='w-30 md:max-w-xl md:ml-20 mt-20' />
     </div>
    </div>
    </>

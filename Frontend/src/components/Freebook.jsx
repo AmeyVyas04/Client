@@ -9,7 +9,7 @@ function Freebook() {
         <>
             <div >
                 <div>
-                    <div className='font-bold px-20 mb-10 mt-4 text-3xl'><h3>Customized Course Recommendations for You</h3></div>
+                    <div className='font-bold px-20 mb-10 mt-4 text-3xl  text-purple-950'><h3>Customized Course Recommendations for You</h3></div>
                 </div>
                 <div className='md:flex'>
                     

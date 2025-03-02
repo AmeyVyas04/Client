@@ -8,6 +8,7 @@ function Courses() {
   return (
     <>
     <Nav/>
+    <br />
     <div className='min-h-screen'>
       <Freebook/>
     </div>
