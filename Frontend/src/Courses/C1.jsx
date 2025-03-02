@@ -114,12 +114,12 @@ const C1 = () => {
   return (
     <div className="bg-white">
       {/* Fixed Nav position */}
-      
+      <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
         <Nav />
-     
+      </div>
       
       {/* Added margin-top to prevent overlap */}
-      <div className="bg-gradient-to-r from-green-50 to-green-200 py-8 ">
+      <div className="bg-gradient-to-r from-green-50 to-green-200 py-8 mt-20">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row mt-8 items-start lg:items-center min-h-[300px]">
             {/* Left Content (Text) */}
@@ -140,12 +140,7 @@ const C1 = () => {
             </div>
 
             {/* Right Content (Image) */}
-            <div class="w-auto sm:w-full lg:w-2/5 flex justify-center lg:justify-start mt-4
-    translate-x-0 translate-y-0 sm:-translate-y-0 
-    lg:translate-x-20 lg:translate-y-8">
-
-
-
+            <div className="w-auto sm:w-full lg:w-2/5 flex justify-center lg:justify-start mt-4 lg:translate-x-20 lg:translate-y-8">
               {course.imageUrl && (
                 <img 
                   src={course.imageUrl} 
@@ -226,8 +221,6 @@ const C1 = () => {
                     <span className="text-orange-500 text-sm">{course.discount}</span>
                   )}
                 </div>
-            
-               
                 
                 <button 
                   onClick={handleBuyNow}
@@ -237,13 +230,13 @@ const C1 = () => {
                 </button>
 
                 <div className="mb-6">
-  {course.details && Object.entries(course.details).map(([key, value]) => (
-    <div key={key} className="grid grid-cols-2 gap-4 py-2 border-b">
-      <span className="text-gray-600">{key.charAt(0).toUpperCase() + key.slice(1).replace(/([A-Z])/g, ' $1')}</span>
-      <span className={`text-right ${key === 'skillLevel' ? 'text-green-600' : 'text-gray-800'}`}>{value}</span>
-    </div>
-  ))}
-</div>
+                  {course.details && Object.entries(course.details).map(([key, value]) => (
+                    <div key={key} className="grid grid-cols-2 gap-4 py-2 border-b">
+                      <span className="text-gray-600">{key.charAt(0).toUpperCase() + key.slice(1).replace(/([A-Z])/g, ' $1')}</span>
+                      <span className={`text-right ${key === 'skillLevel' ? 'text-green-600' : 'text-gray-800'}`}>{value}</span>
+                    </div>
+                  ))}
+                </div>
               
                 <a href="#disclaimer" className="text-blue-600 underline block text-center mb-6">
                   Disclaimer & Refund Policy

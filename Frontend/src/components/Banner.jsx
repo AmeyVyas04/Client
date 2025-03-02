@@ -8,7 +8,7 @@ function Home() {
    <>
    <div className='flex max-w-screen-2xl container mx-auto md:px-20 px-4 flex-col md:flex-row justify-evenly'>
     <div className='w-full md:w-1/2 '>
-    <div className='space-y-8 mt-20 md:mt-32'>
+    <div className='space-y-8 mt-40 md:mt-40'>
     <h1 className='font-bold text-4xl text-purple-950'>Master the art of reading the Market!</h1>
     
     <h3 className='text-xl font-bold text-purple-950'>Elevate your trading with the powerful combination of  <br /><span className='text-purple-700'>Market Profile & Orderflow</span></h3>
@@ -38,15 +38,15 @@ function Home() {
     
 
     <div className="mt-20">
-      <a href="/course">
+      <a href="/Courses">
         <button className="btn btn-success bg-purple-950 text-white">Join Now</button>
       </a>
     </div>
 
     </div>
     </div>
-    <div className='w-full md:w-5/12'>
-    <img src="Banner.png" alt="" className='w-30 md:max-w-xl md:ml-20 mt-20' />
+    <div className='w-full md:w-5/12 mr-48 mt-3'>
+    <img src="Banner.png" alt="" className='w-30 md:max-w-3xl md:ml-10 md:mr-8 mt-20' />
     </div>
    </div>
    </>
