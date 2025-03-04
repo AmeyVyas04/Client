@@ -36,7 +36,7 @@ function Cards({ item }) {
                             className="px-6 py-2 bg-blue-600 text-white rounded-full text-sm font-semibold hover:bg-blue-700 transition-colors duration-200 dark:bg-blue-700 dark:hover:bg-blue-800 shadow-sm"
                             onClick={handleViewProfile} 
                         >
-                            View Profile
+                            View 
                         </button>
                     </div>
                 </div>

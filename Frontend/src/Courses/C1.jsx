@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
 import Nav from '../components/Nav';
+import Footer from '../components/Footer';
 
 const C1 = () => {
   const [course, setCourse] = useState(null);
@@ -16,9 +17,9 @@ const C1 = () => {
           id: 1,
           title: "Order Flow Intraday Course – Recorded (Hindi)",
           subtitle: "Master the Hidden Forces Behind Market Movements",
-          price: 75,
-          originalPrice: 199,
-          discount: "75% off",
+          price: 0,
+          originalPrice: 1,
+          discount: "0% off",
           imageUrl: "/5.png",
           description: "Are you tired of using lagging indicators that fail to give you an edge? Do you want to understand the real-time intentions of institutional traders? Welcome to Order Flow Intraday Course—a structured program designed to transform your trading. Learn how institutional traders move the markets and develop a deep understanding of order flow, delta analysis, and execution strategies.",
           features: [
@@ -114,12 +115,13 @@ const C1 = () => {
   return (
     <div className="bg-white">
       {/* Fixed Nav position */}
+      <Nav />
       <div className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
-        <Nav />
+      
       </div>
       
       {/* Added margin-top to prevent overlap */}
-      <div className="bg-gradient-to-r from-green-50 to-green-200 py-8 mt-20">
+      <div className="bg-gradient-to-r from-green-50 to-green-200 py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row mt-8 items-start lg:items-center min-h-[300px]">
             {/* Left Content (Text) */}
@@ -140,12 +142,12 @@ const C1 = () => {
             </div>
 
             {/* Right Content (Image) */}
-            <div className="w-auto sm:w-full lg:w-2/5 flex justify-center lg:justify-start mt-4 lg:translate-x-20 lg:translate-y-8">
+            <div className="w-full lg:w-2/5 mr-4  flex justify-center">
               {course.imageUrl && (
                 <img 
                   src={course.imageUrl} 
                   alt={`${course.title} Course Image`} 
-                  className="rounded-lg shadow-lg h-auto max-w-full lg:max-h-64" 
+                  className="rounded-lg shadow-lg h-auto max-w-full lg:max-h-64 object-cover" 
                 />
               )}
             </div>
@@ -153,26 +155,26 @@ const C1 = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-8">
+      <div className="container dark:bg-slate-900 dark:text-white mx-auto px-4 py-8">
         <div className="flex flex-col lg:flex-row lg:space-x-8">
           <div className="w-full lg:w-2/3 mb-8 lg:mb-0">
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">What You'll Learn</h2>
+              <h2 className="text-xl font-bold mb-4 text-gray-900 dark:bg-slate-900 dark:text-white">What You'll Learn</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 {course.features.map((feature, index) => (
                   <div key={index} className="flex items-start">
                     <svg className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    <span className="text-gray-700">{feature}</span>
+                    <span className="text-gray-700 dark:bg-slate-900 dark:text-white">{feature}</span>
                   </div>
                 ))}
               </div>
             </section>
             
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Who Is This Course For?</h2>
-              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
+              <h2 className="text-xl font-bold mb-4 text-gray-900 dark:bg-slate-900 dark:text-white">Who Is This Course For?</h2>
+              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 dark:bg-slate-900 dark:text-white">
                 {course.targetAudience && course.targetAudience.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
@@ -180,8 +182,8 @@ const C1 = () => {
             </section>
             
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Why Order Flow Intraday Course?</h2>
-              <p className="text-gray-700 mb-4">
+              <h2 className="text-xl font-bold mb-4 text-gray-900 dark:bg-slate-900 dark:text-white">Why Order Flow Intraday Course?</h2>
+              <p className="text-gray-700 mb-4 dark:bg-slate-900 dark:text-white">
                 Most traders struggle because they rely on <strong>lagging indicators</strong> and <strong>subjective patterns</strong>. 
                 This course teaches you how to trade using <strong>real-time market data</strong>. 
                 You'll learn to see <strong>who is buying, who is selling, and where liquidity is hiding</strong>. 
@@ -190,8 +192,8 @@ const C1 = () => {
             </section>
             
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Prerequisites</h2>
-              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
+              <h2 className="text-xl font-bold mb-4 text-gray-900 dark:bg-slate-900 dark:text-white">Prerequisites</h2>
+              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4 dark:bg-slate-900 dark:text-white">
                 {course.prerequisites && course.prerequisites.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
@@ -199,8 +201,8 @@ const C1 = () => {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Enrol Today & Gain the Edge in Trading</h2>
-              <p className="text-gray-700 mb-4">
+              <h2 className="text-xl font-bold mb-4 text-gray-900 dark:bg-slate-900 dark:text-white">Enrol Today & Gain the Edge in Trading</h2>
+              <p className="text-gray-700 mb-4 dark:bg-slate-900 dark:text-white ">
                 The markets reward those who see what others can't. Don't rely on outdated strategies. 
                 Elevate your trading with Order Flow Intraday Course today.
               </p>
@@ -257,6 +259,7 @@ const C1 = () => {
           </div>
         </div>
       </div>
+
     </div>
   );
 };

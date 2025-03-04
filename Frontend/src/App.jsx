@@ -16,6 +16,8 @@ const Faq = preloadableLazy(() => import("./FAQ/Faq"));
 const C1 = preloadableLazy(() => import("./Courses/C1"));
 const C2 = preloadableLazy(() => import("./Courses/C2"));
 const C3 = preloadableLazy(() => import("./Courses/C3"));
+const C4 = preloadableLazy(() => import("./Courses/C4"));
+const C5 = preloadableLazy(() => import("./Courses/C5"));
 
 export default function App() {
   useEffect(() => {
@@ -26,6 +28,8 @@ export default function App() {
     C1.preload();
     C2.preload();
     C3.preload();
+    C4.preload();
+    C5.preload();
   }, []);
 
   return (
@@ -39,7 +43,9 @@ export default function App() {
       <Route path="/Faq" element={<Faq />} />
       <Route path="/Courses/Order Flow Intraday Course Hindi" element={<C1 />} />
       <Route path="/Courses/Order Flow Intraday Course English" element={<C2 />} />
-      <Route path="/Courses/Market Profile Trading Course" element={<C3 />} />
+      <Route path="/Courses/Market Profile Trading Course (Hindi)" element={<C3 />} />
+      <Route path="/Courses/Market Profile Trading Course English" element={<C4 />} />
+      <Route path="/Courses/Option Selling Mastery Course Hindi" element={<C5 />} />
     </Routes>
   );
 }

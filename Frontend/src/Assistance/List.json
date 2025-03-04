@@ -2,7 +2,7 @@
     {
         "id": "1",
         "endpoint":"Order Flow Intraday Course Hindi",
-        "name": "Cource1",
+        "name": "Order Flow Intraday Course – Recorded (Hindi)",
         "title": "Software Engineer", 
         "price": 0,
         "catagory": "Paid",
@@ -11,7 +11,7 @@
     {
         "id": "2",
         "endpoint":"Order Flow Intraday Course English",
-        "name": "Cource2",
+        "name": "Order Flow Intraday Course – Recorded (English)",
         "title": "Product Designer",
         "price": 0,
         "catagory": "Paid",
@@ -19,8 +19,8 @@
     },
     {
         "id": "3",
-        "endpoint":"Market Profile Trading Course",
-        "name": "Cource3",
+        "endpoint":"Market Profile Trading Course (Hindi)",
+        "name": "Market Profile Trading Course (Hindi)",
         "title": "Data Scientist",
         "price": 0,
         "catagory": "Paid",
@@ -28,7 +28,8 @@
     },
     {
         "id": "4",
-        "name": "Cource4",
+        "endpoint":"Market Profile Trading Course English",
+        "name": "Market Profile Trading Course (English)",
         "title": "UX Researcher",
         "price": 0,
         "catagory": "Paid",
@@ -36,7 +37,8 @@
     },
     {
         "id": "5",
-        "name": "Cource5",
+        "endpoint":"Option Selling Mastery Course Hindi",
+        "name": "Option Selling Mastery Course Hindi",
         "title": "Project Manager",
         "price": 0,
         "catagory": "Paid",

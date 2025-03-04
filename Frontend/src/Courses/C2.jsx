@@ -132,14 +132,12 @@ const C2 = () => {
             </div>
 
             {/* Right Content (Image) */}
-            <div className="w-auto sm:w-full lg:w-2/5 flex justify-center lg:justify-start mt-4
-    translate-x-0 translate-y-0 sm:-translate-y-0 
-    lg:translate-x-20 lg:translate-y-8">
+            <div className="w-full lg:w-2/5  flex justify-center">
               {course.imageUrl && (
                 <img 
                   src={course.imageUrl} 
                   alt={`${course.title} Course Image`} 
-                  className="rounded-lg shadow-lg h-auto max-w-full lg:max-h-64" 
+                  className="rounded-lg shadow-lg h-auto max-w-full lg:max-h-64 object-cover" 
                 />
               )}
             </div>
@@ -147,26 +145,26 @@ const C2 = () => {
         </div>
       </div>
 
-      <div className="container mx-auto px-4 py-8">
-        <div className="flex flex-col lg:flex-row lg:space-x-8">
+      <div className="container dark:bg-slate-900 dark:text-white mx-auto px-4 py-8">
+        <div className="flex flex-col lg:flex-row lg:space-x-8  ">
           <div className="w-full lg:w-2/3 mb-8 lg:mb-0">
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">What You'll Learn</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
+              <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white ">What You'll Learn</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 ">
                 {course.features.map((feature, index) => (
                   <div key={index} className="flex items-start">
-                    <svg className="w-5 h-5 text-[#987ce4] mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-[#987ce4] mr-2 mt-1 flex-shrink-0 " fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
-                    <span className="text-gray-700">{feature}</span>
+                    <span className="text-gray-700 dark:text-white">{feature}</span>
                   </div>
                 ))}
               </div>
             </section>
             
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Who Is This Course For?</h2>
-              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
+              <h2 className="text-xl font-bold mb-4 text-gray-900 dark:text-white">Who Is This Course For?</h2>
+              <ul className="list-disc list-inside text-gray-700 dark:text-white space-y-2 ml-4">
                 {course.targetAudience && course.targetAudience.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
@@ -174,8 +172,8 @@ const C2 = () => {
             </section>
             
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Why Order Flow Intraday Course?</h2>
-              <p className="text-gray-700 mb-4">
+              <h2 className="text-xl font-bold mb-4 dark:text-white text-gray-900">Why Order Flow Intraday Course?</h2>
+              <p className="text-gray-700 mb-4 dark:text-white">
                 Most traders struggle because they rely on <strong>lagging indicators</strong> and <strong>subjective patterns</strong>. 
                 This course teaches you how to trade using <strong>real-time market data</strong>. 
                 You'll learn to see <strong>who is buying, who is selling, and where liquidity is hiding</strong>. 
@@ -184,8 +182,8 @@ const C2 = () => {
             </section>
             
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Prerequisites</h2>
-              <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
+              <h2 className="text-xl font-bold mb-4 dark:text-white text-gray-900">Prerequisites</h2>
+              <ul className="list-disc list-inside text-gray-700 dark:text-white space-y-2 ml-4">
                 {course.prerequisites && course.prerequisites.map((item, index) => (
                   <li key={index}>{item}</li>
                 ))}
@@ -193,8 +191,8 @@ const C2 = () => {
             </section>
 
             <section className="mb-8">
-              <h2 className="text-xl font-bold mb-4 text-gray-900">Enrol Today & Gain the Edge in Trading</h2>
-              <p className="text-gray-700 mb-4">
+              <h2 className="text-xl font-bold mb-4 dark:text-white text-gray-900">Enrol Today & Gain the Edge in Trading</h2>
+              <p className="text-gray-700 dark:text-white mb-4">
                 The markets reward those who <strong>see what others can't</strong>. Don't rely on outdated strategies. 
                 Elevate your trading with <strong>Order Flow Intraday Course</strong> today.
               </p>
@@ -204,12 +202,12 @@ const C2 = () => {
             </section>
           </div>
 
-          <div className="w-full lg:w-1/3">
+          <div className="w-full  lg:w-1/3">
             <div className="bg-white rounded-lg shadow-md border border-gray-200 overflow-hidden sticky top-24">
               <div className="p-6">
                 <div className="flex justify-between items-center mb-6">
                   <div className="flex items-baseline">
-                    <span className="text-2xl font-bold">${course.price}</span>
+                    <span className="text-2xl font-bold dark:text-black">${course.price}</span>
                     {course.originalPrice && (
                       <span className="ml-2 text-gray-500 line-through text-sm">${course.originalPrice}</span>
                     )}

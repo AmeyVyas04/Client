@@ -3,7 +3,7 @@ import list from '../Assistance/List.json';
 import Cards from './Cards.jsx';
 
 function Freebook() {
-    const freecourse = list.filter((data) => data.catagory === 'Paid').slice(0,4);
+    const freecourse = list.filter((data) => data.catagory === 'Paid').slice(0,5);
           
     return (
         <>
