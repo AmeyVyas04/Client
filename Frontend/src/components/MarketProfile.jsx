@@ -13,37 +13,37 @@ function MarketProfile() {
         <h1 className='text-4xl font-bold text-purple-950 ml-1'>About Market Profile Charts</h1>
         <div className='font-roboto space-y-6'>
       <div className='flex items-center gap-3'>
-        <TiTick className='text-green-500 text-4xl w-10' />
+      <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'><span className='font-semibold text-purple-950'> Understand Market Behavior</span> – Market Profile helps you
  decode price movements based on trader activity, not
  just candlesticks</p>
       </div>
-      <div className='flex items-center gap-3'>
-        <TiTick className='text-green-500 text-5xl w-11' />
+      <div className='flex items-start gap-3'>
+      <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'><span className='font-semibold  text-purple-950'>Spot High-Probability Trades</span>   – Market Profile highlights
  areas of support, resistance, and imbalance, giving
  traders a strategic edge</p>
       </div>
-      <div className='flex items-center gap-3'>
-        <TiTick className='text-green-500 text-5xl w-10' />
+      <div className='flex items-start gap-3'>
+      <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'><span className='font-semibold  text-purple-950'>Adaptable to All Markets</span>  – Whether you trade stocks,
  futures, forex, or crypto, Market Profile works across all
  asset classes</p>
       </div>
-      <div className='flex items-center gap-3'>
-        <TiTick className='text-green-500 text-4xl w-11' />
+      <div className='flex items-start gap-3'>
+      <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'><span className='font-semibold  text-purple-950'> Enhanced Risk Management</span>  – By understanding value
  areas and volume nodes, you can place stops and targets
  more effectively</p>
       </div>
-      <div className='flex items-center gap-3'>
-        <TiTick className='text-green-500 text-5xl ' />
+      <div className='flex items-start gap-3'>
+      <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'><span className='font-semibold  text-purple-950'>Combines Price, Volume & Time</span>   – Unlike price-action
 only strategies, it integrates three key market dimensions
  for better trade decisions</p>
       </div>
-      <div className='flex items-center gap-3'>
-        <TiTick className='text-green-500 text-5xl ' />
+      <div className='flex items-start gap-3'>
+      <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'><span className='font-semibold  text-purple-950'>Combines Price, Volume & Time</span>  – Unlike price-action
 only strategies, it integrates three key market dimensions
  for better trade decisions</p>

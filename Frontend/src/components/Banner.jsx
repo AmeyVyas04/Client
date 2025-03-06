@@ -14,24 +14,24 @@ function Home() {
     <h3 className='text-xl font-bold text-purple-950'>Elevate your trading with the powerful combination of  <br /><span className='text-purple-700'>Market Profile & Orderflow</span></h3>
     
     <div className='font-roboto space-y-6 '>
-      <div className='flex items-start'>
-        <TiTick className="text-2xl mr-2 text-green-500" />
+      <div className='flex items-center'>
+        <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'>Comprehensive Training on Market Profile & Orderflow</p>
       </div>
-      <div className='flex items-start'>
-        <TiTick className="text-2xl mr-2 text-green-500" />
+      <div className='flex items-center'>
+        <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'>Expert Guidance from Experienced Traders</p>
       </div>
-      <div className='flex items-start text-lg'>
-        <TiTick className="text-2xl mr-2 text-green-500" />
+      <div className='flex items-center'>
+        <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'>Tailored Learning for All Levels</p>
       </div>
-      <div className='flex items-start'>
-        <TiTick className="text-2xl mr-2 text-green-500" />
+      <div className='flex items-center'>
+        <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'>Learn Practical Strategies Not Just Theory</p>
       </div>
-      <div className='flex items-start'>
-        <TiTick className="text-2xl mr-2 text-green-500" />
+      <div className='flex items-center'>
+        <img className="text-xl mr-2 text-green-500 w-10 flex-shrink-0" src='/Tick.png'  />
         <p className='text-purple-900 text-lg'>Trusted by 1000+ Successful Students</p>
       </div>
     </div>
