@@ -18,7 +18,7 @@ const C3 = () => {
           price: 75,
           originalPrice: 199,
           discount: "75% off",
-          imageUrl: "/7.png",
+          imageUrl: "/3.png",
           description: "Do you struggle to understand why the market moves the way it does? Are you looking for a structured approach that works across both intraday and positional trading? Welcome to the Market Profile Trading Course—a complete guide to market structure, auction theory, and price-volume dynamics. This course will help you develop a data-driven approach to trading, allowing you to read the market like a professional.",
           features: [
             "Market Profile Basics: Understand key concepts like value areas, POC, balance vs. imbalance, and price acceptance vs. rejection",

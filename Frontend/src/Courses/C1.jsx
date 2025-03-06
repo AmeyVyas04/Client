@@ -20,7 +20,7 @@ const C1 = () => {
           price: 0,
           originalPrice: 1,
           discount: "0% off",
-          imageUrl: "/5.png",
+          imageUrl: "/1.png",
           description: "Are you tired of using lagging indicators that fail to give you an edge? Do you want to understand the real-time intentions of institutional traders? Welcome to Order Flow Intraday Course—a structured program designed to transform your trading. Learn how institutional traders move the markets and develop a deep understanding of order flow, delta analysis, and execution strategies.",
           features: [
             "Market Dynamics: Track institutional traders and understand their impact on price movement",

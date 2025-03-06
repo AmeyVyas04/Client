@@ -18,7 +18,7 @@ const C3 = () => {
           price: 75,
           originalPrice: 199,
           discount: "75% off",
-          imageUrl: "/9.png",
+          imageUrl: "/5.png",
           description: "Do you want to trade options like a professional and generate consistent returns? Are you tired of relying on high-risk option buying strategies that lead to frequent losses? Welcome to the Option Selling Mastery Course—a complete guide to positional and intraday option selling strategies. This course will help you build a rule-based trading approach that works in different market conditions, allowing you to profit from time decay, volatility shifts, and probability-based setups.",
           features: [
             "Core Principles of Option Selling: Understand why option sellers have a statistical edge over option buyers",

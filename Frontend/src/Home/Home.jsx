@@ -4,15 +4,17 @@ import Footer from '../components/Footer'
 import Freebook from '../components/Freebook'
 import Nav from '../components/Nav'
 import Middle from '../components/Middle'
-import Why from '../components/Why'
 import Downloadapp from '../components/Downloadapp'
+import OrderFlow from '../components/OrderFlow'
+import MarketProfile from '../components/MarketProfile'
 function Home() {
   return (
    <>
     <Nav/>
    <Banner/>
    <Middle/>
-   <Why/>
+   <OrderFlow/>
+   <MarketProfile/>
    <Downloadapp/>
    <Freebook/>
    <Footer/>

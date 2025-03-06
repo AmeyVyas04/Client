@@ -1,6 +1,8 @@
 import React, { lazy, useEffect } from "react";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home/Home"; // Home is eagerly loaded
+import Newsletter from "./Newsletter/Newsletter";
+import Disclamer from "./Disclemer/Disclamer";
 
 // Custom lazy loader with preload support
 const preloadableLazy = (importFunc) => {
@@ -46,6 +48,8 @@ export default function App() {
       <Route path="/Courses/Market Profile Trading Course (Hindi)" element={<C3 />} />
       <Route path="/Courses/Market Profile Trading Course English" element={<C4 />} />
       <Route path="/Courses/Option Selling Mastery Course Hindi" element={<C5 />} />
+      <Route path="/Newsletter" element={<Newsletter />} />
+      <Route path="/Disclaimer" element={<Disclamer />} />
     </Routes>
   );
 }
