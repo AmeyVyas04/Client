@@ -88,7 +88,7 @@ const C3 = () => {
     return (
       <div className="flex flex-col justify-center items-center h-screen pt-16">
         <div className="text-red-500 mb-4">{error}</div>
-        <button 
+        <button  
           onClick={() => window.location.reload()}
           className="bg-red-500 text-white px-4 py-2 rounded-md"
         >

@@ -23,8 +23,7 @@ function Nav() {
   const navItems = [
     { name: 'Home', link: '/' },
     { name: 'Courses', link: '/Courses' },
-    { name: 'Order Flow', link: '#' },
-    { name: 'Market Profile', link: '#' },
+    { name: 'Blogs', link: 'https://blog.momentrade.in/' },
     { name: 'Newsletter', link: '/Newsletter' },
     { name: 'Contact Us', link: 'https://forms.visme.co/formsPlayer/vdz3ozr3-momentrade-contact-form' },
     { name: 'About Us', link: '/Aboutus' },
