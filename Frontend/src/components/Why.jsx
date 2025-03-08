@@ -31,7 +31,7 @@ function Why() {
     </div>
     </div>
     <div className=' w-full md:w-5/12 '>
-    <img src="Why.jpg" alt="" className='w-30  md:max-w-xl md:ml-20 mt-20' />
+    <img loading="lazy" src="Why.jpg" alt="why MOMENTRADE" className='w-30  md:max-w-xl md:ml-20 mt-20' />
     </div>
    </div>
    </>

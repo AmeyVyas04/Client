@@ -10,19 +10,19 @@ function Downloadapp() {
        
         <div className="flex flex-col items-center mt-10 md:mt-20">
             <h3 className='text-lg font-semibold mb-6'>Android Application</h3>
-            <a href="https://clplazarus.page.link/q3Lh" target="_blank" rel="noopener noreferrer">
-              <img src="/Play.png" alt="Android app" className='w-64 hover:scale-105 transition-all duration-300 ease-in-out shadow-2xl cursor-pointer' />
+            <a loading="lazy" href="https://clplazarus.page.link/q3Lh" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" src="/Play.png" alt="Android app" className='w-64 hover:scale-105 transition-all duration-300 ease-in-out shadow-2xl cursor-pointer' />
             </a>
         </div>
         <div className="flex flex-col items-center mt-10 md:mt-0">
-            <a >
-              <img src="/Mobile.png" alt="iOS app" className='w-64 md:w-96  shadow-2xl'/>
-            </a>
+            
+              <img loading="lazy" src="/Mobile.png" alt="iOS app" className='w-64 md:w-96  shadow-2xl'/>
+            
         </div>
         <div className="flex flex-col items-center mt-10 md:mt-20">
             <h3 className='text-lg font-semibold mb-6'>IOS Application</h3>
-            <a href="https://apps.apple.com/in/app/myinstitute/id1472483563" target="_blank" rel="noopener noreferrer">
-              <img src="/Apple1.png" alt="iOS app" className='w-64 hover:scale-105 transition-all duration-300 ease-in-out shadow-2xl cursor-pointer'/>
+            <a loading="lazy" href="https://apps.apple.com/in/app/myinstitute/id1472483563" target="_blank" rel="noopener noreferrer">
+              <img loading="lazy" src="/Apple1.png" alt="iOS app" className='w-64 hover:scale-105 transition-all duration-300 ease-in-out shadow-2xl cursor-pointer'/>
             </a>
         </div>
     </div>
