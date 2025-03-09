@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
+
 import Nav from '../components/Nav';
 
 const C2 = () => {
@@ -16,9 +17,9 @@ const C2 = () => {
           id: 1,
           title: "Order Flow Intraday Course – Recorded (English)",
           subtitle: "Master the Hidden Forces Behind Market Movements",
-          price: 75,
-          originalPrice: 199,
-          discount: "75% off",
+          price: "12,499",
+          originalPrice: 1,
+          discount: "0",
           imageUrl: "/2.png",
           description: "Are you tired of using lagging indicators that fail to give you an edge? Do you want to understand the real-time intentions of institutional traders? Welcome to Order Flow Intraday Course—a structured program designed to transform your trading. Learn how institutional traders move the markets and develop a deep understanding of order flow, delta analysis, and execution strategies.",
           features: [
@@ -47,7 +48,7 @@ const C2 = () => {
             sessions: "Structured learning modules",
             recordedContent: "Available anytime on Web, Android, and iOS"
           },
-          contactNumber: "+123783396141"
+          contactNumber: "+91 8080823091"
         };
         
         setCourse(mockData);
@@ -64,13 +65,13 @@ const C2 = () => {
   
   const handleEnroll = () => {
     // Implement enrollment logic here
-    console.log(`Enrolling in course: ${course?.id}`);
+    window.location.href = 'https://www.momentrade.com/courses/535275'; 
     // This could redirect to a checkout page or open a modal
   };
   
   const handleBuyNow = () => {
     // Implement buy now logic here
-    console.log(`Buying course now: ${course?.id}`);
+    window.location.href = 'https://www.momentrade.com/courses/535275'; 
     // This could redirect to a checkout page
   };
 
@@ -196,9 +197,7 @@ const C2 = () => {
                 The markets reward those who <strong>see what others can't</strong>. Don't rely on outdated strategies. 
                 Elevate your trading with <strong>Order Flow Intraday Course</strong> today.
               </p>
-              <p className="text-[#987ce4] font-medium">
-                🔹 Discount offer available for limited period only!
-              </p>
+              
             </section>
           </div>
 
@@ -207,14 +206,10 @@ const C2 = () => {
               <div className="p-6">
                 <div className="flex justify-between items-center mb-6">
                   <div className="flex items-baseline">
-                    <span className="text-2xl font-bold dark:text-black">${course.price}</span>
-                    {course.originalPrice && (
-                      <span className="ml-2 text-gray-500 line-through text-sm">${course.originalPrice}</span>
-                    )}
+                    <span className="text-2xl font-bold dark:text-black">₹ {course.price}</span>
+                    
                   </div>
-                  {course.discount && (
-                    <span className="text-[#987ce4] text-sm">{course.discount}</span>
-                  )}
+                  
                 </div>
                 
                 <button 

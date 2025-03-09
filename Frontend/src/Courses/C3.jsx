@@ -15,7 +15,7 @@ const C3 = () => {
           id: 1,
           title: "Market Profile Trading Course (Hindi)",
           subtitle: "Master Market Structure & Auction Theory for Both Intraday & Positional Trading",
-          price: 75,
+          price: "30,000",
           originalPrice: 199,
           discount: "75% off",
           imageUrl: "/3.png",
@@ -47,7 +47,7 @@ const C3 = () => {
             sessions: "Structured Learning Modules",
             recordedContent: "Available Anytime for Rewatching on Web / Android / iOS"
           },
-          contactNumber: "+123783396141"
+          contactNumber: "+91 8080823091"
         };
         
         setCourse(mockData);
@@ -64,14 +64,12 @@ const C3 = () => {
   
  
   const handleEnroll = () => {
-    // Implement enrollment logic here
-    console.log(`Enrolling in course: ${course?.id}`);
+   
     // This could redirect to a checkout page or open a modal
   };
   
   const handleBuyNow = () => {
-    // Implement buy now logic here
-    console.log(`Buying course now: ${course?.id}`);
+    
     // This could redirect to a checkout page
   };
 
@@ -194,10 +192,8 @@ const C3 = () => {
                 with <strong>Market Profile Trading Course</strong>.
               </p>
               <div className="flex items-center text-sm text-[#6a83ff] mt-2">
-                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-11a1 1 0 10-2 0v3a1 1 0 00.293.707l1.414 1.414a1 1 0 001.414-1.414L11 10.586V7z"/>
-                </svg>
-                <span>Discount offer available for limited period only!</span>
+               
+               
               </div>
             </section>
           </div>
@@ -207,10 +203,10 @@ const C3 = () => {
               <div className="p-6">
                 <div className="flex justify-between items-center mb-6">
                   <div className="flex items-baseline">
-                    <span className="text-2xl font-bold">${course.price}</span>
-                    <span className="ml-2 text-gray-500 line-through text-sm">${course.originalPrice}</span>
+                    <span className="text-2xl font-bold">₹ {course.price}</span>
+                 
                   </div>
-                  <span className="text-[#6a83ff] text-sm">{course.discount}</span>
+                  
                 </div>
                 
                 <button 

@@ -17,9 +17,9 @@ const C1 = () => {
           id: 1,
           title: "Order Flow Intraday Course – Recorded (Hindi)",
           subtitle: "Master the Hidden Forces Behind Market Movements",
-          price: 0,
-          originalPrice: 1,
-          discount: "0% off",
+          price: "12,499",
+          originalPrice:1,
+          discount: "",
           imageUrl: "/1.png",
           description: "Are you tired of using lagging indicators that fail to give you an edge? Do you want to understand the real-time intentions of institutional traders? Welcome to Order Flow Intraday Course—a structured program designed to transform your trading. Learn how institutional traders move the markets and develop a deep understanding of order flow, delta analysis, and execution strategies.",
           features: [
@@ -48,7 +48,7 @@ const C1 = () => {
             sessions: "Structured learning modules",
             recordedContent: "Available anytime on Web, Android, and iOS"
           },
-          contactNumber: "+123783396141"
+          contactNumber: "+91 8080823091"
         };
         
         setCourse(mockData);
@@ -65,19 +65,14 @@ const C1 = () => {
   
   const handleEnroll = () => {
     // Implement enrollment logic here
-    console.log(`Enrolling in course: ${course?.id}`);
+    
     // This could redirect to a checkout page or open a modal
   };
   
-  const handleAddToCart = () => {
-    // Implement add to cart logic here
-    console.log(`Adding course to cart: ${course?.id}`);
-    // This could add the item to a cart state or context
-  };
   
   const handleBuyNow = () => {
     // Implement buy now logic here
-    console.log(`Buying course now: ${course?.id}`);
+    
     // This could redirect to a checkout page
   };
 
@@ -214,14 +209,10 @@ const C1 = () => {
               <div className="p-6">
                 <div className="flex justify-between items-center mb-6">
                   <div className="flex items-baseline">
-                    <span className="text-2xl font-bold">${course.price}</span>
-                    {course.originalPrice && (
-                      <span className="ml-2 text-gray-500 line-through text-sm">${course.originalPrice}</span>
-                    )}
+                    <span className="text-2xl font-bold">₹ {course.price}</span>
+                    
                   </div>
-                  {course.discount && (
-                    <span className="text-orange-500 text-sm">{course.discount}</span>
-                  )}
+                 
                 </div>
                 
                 <button 
@@ -240,7 +231,7 @@ const C1 = () => {
                   ))}
                 </div>
               
-                <a href="#disclaimer" className="text-blue-600 underline block text-center mb-6">
+                <a href="/disclaimer" className="text-blue-600 underline block text-center mb-6">
                   Disclaimer & Refund Policy
                 </a>
               
