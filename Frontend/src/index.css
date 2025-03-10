@@ -8,6 +8,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body{
     font-family: "DM Sans";
 }

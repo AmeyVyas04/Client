@@ -10,8 +10,8 @@ function Cards({ item }) {
 
     return (
         <div 
-            className="card w-65 md:w-80 mx-4 mb-8 group relative transition-all duration-300 
-                 dark:bg-slate-900 dark:text-white ml-11 "
+            className="card w-9/8 md:w-96 lg:w-96 mx-4 mb-8 group relative transition-all duration-300 
+                 dark:bg-slate-900 dark:text-white ml-8 "
             title={`Explore ${item.name} Course`}
         >
             {/* Glow effect container */}
@@ -24,12 +24,12 @@ function Cards({ item }) {
             {/* Card content */}
             <div 
                 className="relative bg-white dark:bg-slate-800 rounded-2xl shadow-lg overflow-hidden 
-                    border-4 border-gray-300 dark:border-gray-600 h-auto mr-4 "
+                    border-4 border-gray-300 dark:border-gray-600 h-auto md:h-90 lg:h-90"
             >
                 {/* Course Image */}
                 <figure className="relative">
                     <img 
-                        className="w-full h-56 object-cover border-b-4 border-gray-300 dark:border-gray-600"
+                        className="md:w-full w-96 justify-center h-56 md:h-40 lg:h-60 object-cover border-b-4 border-gray-300 dark:border-gray-600"
                         src={item.image}
                         alt={`${item.name} Course Image`}
                         loading="lazy"

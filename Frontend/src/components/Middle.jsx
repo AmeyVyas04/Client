@@ -1,13 +1,13 @@
 import React from 'react'
 
-import { TiTick } from 'react-icons/ti'
+
 
 function Middle() {
   return (
    <>
    <div className='flex max-w-screen-3xl container mx-auto flex-col md:flex-row justify-between px-8'>
     <div className='w-full md:w-1/2 mt-8 mb-10 flex justify-center'>
-        <img src="Middle.png" alt="Middle" className='w-full md:max-w-3xl' />
+        <img src="Why Us Image.png" alt="Middle" className='w-full md:max-w-3xl' />
     </div>
     <section className='w-full md:w-5/12 space-y-8 mb-20 md:mt-32 mr-20'>
   <h2 className='text-5xl font-bold text-purple-950 ml-1'>What Makes Us Different</h2>

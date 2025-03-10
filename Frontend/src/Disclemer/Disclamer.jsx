@@ -7,7 +7,7 @@ function Disclamer() {
     <>
     <Nav/>
     <div className='min-h-screen flex justify-center items-center'>
-    <section className="w-full md:w-5/12 space-y-8 mb-20 mt-32">
+    <section className="w-full md:w-5/12 space-y-8 mb-20 mt-32 ml-9">
       <h1 className="text-4xl font-bold text-purple-950 ml-1">Trading Disclaimer</h1>
       <div className="font-roboto space-y-6">
         

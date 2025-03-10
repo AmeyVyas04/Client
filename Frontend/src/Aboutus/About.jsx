@@ -43,12 +43,12 @@ function About() {
   </div>
 
   {/* Image Section with SEO Optimization */}
-  <div className="w-full md:w-5/12">
+  <div className="w-full md:w-5/12 md:mt-40 mr-10">
     <img 
       loading="lazy" 
-      src="aboutus.jpg" 
+      src="About Us.png" 
       alt="Momentrade Trading Education - About Us" 
-      className="w-30 md:max-w-xl md:ml-20 mt-20 rounded-lg shadow-lg"
+      className="w-30 md:max-w-xl md:ml-20  rounded-lg "
     />
   </div>
 

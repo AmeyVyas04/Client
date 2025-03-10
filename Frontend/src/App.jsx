@@ -11,6 +11,7 @@ const preloadableLazy = (importFunc) => {
   return Component;
 };
 
+
 // Lazy-load other pages
 const Courses = preloadableLazy(() => import("./Courses/Courses"));
 const Aboutus = preloadableLazy(() => import("./Aboutus/Aboutus"));

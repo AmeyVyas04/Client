@@ -80,7 +80,7 @@ const CourseDescriptionPage = () => {
   }
 
   return (
-    <div className="bg-white">
+    <div className="bg-white justify-center">
       {/* Navigation */}
       <header className="bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-2">

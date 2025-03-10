@@ -12,7 +12,7 @@ function Courses() {
     <>
       {/* SEO Meta Tags */}
       <Helmet>
-        <title className='text-purple-950'>Paid Stock Market Courses | MomenTrade</title>
+        <title>Paid Stock Market Courses | MomenTrade</title>
         <meta 
           name="description" 
           content="Explore our premium stock market courses designed for traders and investors. Learn technical analysis, risk management, and trading strategies." 
@@ -26,18 +26,8 @@ function Courses() {
         <meta property="og:description" content="Enroll in our expert-led stock market courses and enhance your trading skills." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://momentrade.in/courses" />
-      </Helmet>
 
-      <Nav />
-      <br />
-
-      <div className='min-h-screen mt-20 bg-white-300 px-6'>
-        {/* Page Heading for SEO */}
-        <h1 className="text-2xl md:text-4xl font-bold text-center text-gray-900 mb-6">
-          Premium Stock Market Courses
-        </h1>
-
-        {/* Schema.org Structured Data */}
+        {/* Structured Data for SEO */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -51,11 +41,21 @@ function Courses() {
             }
           })}
         </script>
+      </Helmet>
 
-        {/* Course Cards Grid */}
-        <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+      <Nav />
+      
+      {/* Page Container */}
+      <div className="min-h-screen mt-14   md:mt-32 px-4 md:px-10 lg:px-16 bg-gray-50">
+        {/* Heading */}
+        
+
+        {/* Course Cards Grid - Centered on Small Devices */}
+        <div className="flex flex-wrap justify-center mr-4 md:gap-6">
           {freecourse.map((item) => (
-            <Cards item={item} key={item.id} />
+            <div className="w-full sm:w-[300px] md:w-auto flex justify-center">
+              <Cards item={item} key={item.id} />
+            </div>
           ))}
         </div>
       </div>
