@@ -19,7 +19,7 @@ const C1 = () => {
           subtitle: "Master the Hidden Forces Behind Market Movements",
           price: "12,499",
           originalPrice:1,
-          discount: "",
+          discount: "Upto 30% Off",
           imageUrl: "/1.png",
           description: "Are you tired of using lagging indicators that fail to give you an edge? Do you want to understand the real-time intentions of institutional traders? Welcome to Order Flow Intraday Course—a structured program designed to transform your trading. Learn how institutional traders move the markets and develop a deep understanding of order flow, delta analysis, and execution strategies.",
           features: [
@@ -212,7 +212,9 @@ const C1 = () => {
                     <span className="text-2xl font-bold">₹ {course.price}</span>
                     
                   </div>
-                 
+                  {course.discount && (
+                    <span className="text-orange-500 text-sm">{course.discount}</span>
+                  )}
                 </div>
                 
                 <button 

@@ -17,7 +17,7 @@ const C3 = () => {
           subtitle: "Master Market Structure & Auction Theory for Both Intraday & Positional Trading",
           price: "30,000",
           originalPrice: 199,
-          discount: "75% off",
+          discount: "Upto 30% Off",
           imageUrl: "/3.png",
           description: "Do you struggle to understand why the market moves the way it does? Are you looking for a structured approach that works across both intraday and positional trading? Welcome to the Market Profile Trading Course—a complete guide to market structure, auction theory, and price-volume dynamics. This course will help you develop a data-driven approach to trading, allowing you to read the market like a professional.",
           features: [
@@ -206,7 +206,9 @@ const C3 = () => {
                     <span className="text-2xl font-bold">₹ {course.price}</span>
                  
                   </div>
-                  
+                  {course.discount && (
+                    <span className="text-orange-500 text-sm">{course.discount}</span>
+                  )}
                 </div>
                 
                 <button 

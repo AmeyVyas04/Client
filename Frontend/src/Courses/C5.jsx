@@ -17,7 +17,7 @@ const C3 = () => {
           subtitle: "Learn the Art of Consistent Profits with Smart Option Selling",
           price: "15,000",
           originalPrice: 199,
-          discount: "75% off",
+          discount: "Upto 30% Off",
           imageUrl: "/5.png",
           description: "Do you want to trade options like a professional and generate consistent returns? Are you tired of relying on high-risk option buying strategies that lead to frequent losses? Welcome to the Option Selling Mastery Course—a complete guide to positional and intraday option selling strategies. This course will help you build a rule-based trading approach that works in different market conditions, allowing you to profit from time decay, volatility shifts, and probability-based setups.",
           features: [
@@ -202,7 +202,9 @@ const C3 = () => {
                     <span className="text-2xl font-bold">₹ {course.price}</span>
                     
                   </div>
-                 
+                  {course.discount && (
+                    <span className="text-orange-500 text-sm">{course.discount}</span>
+                  )}
                 </div>
                 
                 <button 
