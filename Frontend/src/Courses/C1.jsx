@@ -65,14 +65,14 @@ const C1 = () => {
   
   const handleEnroll = () => {
     // Implement enrollment logic here
-    
+    window.location.href = 'https://www.momentrade.com/courses/646617'; 
     // This could redirect to a checkout page or open a modal
   };
   
   
   const handleBuyNow = () => {
     // Implement buy now logic here
-    
+    window.location.href = 'https://www.momentrade.com/courses/646617'; 
     // This could redirect to a checkout page
   };
 
