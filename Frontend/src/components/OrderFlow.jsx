@@ -7,7 +7,7 @@ function OrderFlow() {
     <>
      <div className='flex max-w-screen-2xl container mx-auto md:px-20 px-4 flex-col md:flex-row justify-evenly'>
      <section className='w-full md:w-1/2'>
-  <div className='space-y-8  md:mt-20'>
+  <div className='space-y-8    md:mt-20'>
     <h1 className='font-bold text-5xl text-purple-950'>What Are Order Flow Charts?</h1>
     <div className='font-roboto space-y-6'>
       {[

@@ -15,12 +15,12 @@ const C1 = () => {
       
         const mockData = {
           id: 1,
-          title: "Order Flow Intraday Course – Recorded (Hindi)",
+          title: "Order Flow Intraday Mastery – Live Batch (Hindi)",
           subtitle: "Master the Hidden Forces Behind Market Movements",
           price: "12,499",
           originalPrice:1,
           discount: "Upto 30% Off",
-          imageUrl: "/1.png",
+          imageUrl: "/course1.jpeg",
           description: "Are you tired of using lagging indicators that fail to give you an edge? Do you want to understand the real-time intentions of institutional traders? Welcome to Order Flow Intraday Course—a structured program designed to transform your trading. Learn how institutional traders move the markets and develop a deep understanding of order flow, delta analysis, and execution strategies.",
           features: [
             "Market Dynamics: Track institutional traders and understand their impact on price movement",
@@ -41,11 +41,11 @@ const C1 = () => {
             "A subscription to order flow charting software (GoCharting preferred)."
           ],
           details: {
-            format: "Pre-recorded online course",
+            format: "Live classes via Google Meet",
             language: "Hindi",
             skillLevel: "Basic to Advanced",
             access: "1-year full access",
-            sessions: "Structured learning modules",
+            sessions: "8 sessions saturday-Sunday 6.30-8.30 pm",
             recordedContent: "Available anytime on Web, Android, and iOS"
           },
           contactNumber: "+91 8080823091"
@@ -79,7 +79,7 @@ const C1 = () => {
   if (loading) {
     return (
       <div className="flex justify-center items-center h-screen pt-16">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-green-500"></div>
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-500"></div>
         <span className="ml-3">Loading course details...</span>
       </div>
     );
@@ -91,7 +91,7 @@ const C1 = () => {
         <div className="text-red-500 mb-4">{error}</div>
         <button 
           onClick={() => window.location.reload()}
-          className="bg-green-600 text-white px-4 py-2 rounded-md"
+          className="bg-purple-600 text-white px-4 py-2 rounded-md"
         >
           Try Again
         </button>
@@ -116,7 +116,7 @@ const C1 = () => {
       </div>
       
       {/* Added margin-top to prevent overlap */}
-      <div className="bg-gradient-to-r from-green-50 to-green-200 py-8">
+      <div className="bg-gradient-to-r from-purple-100 to-purple-400 py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row mt-8 items-start lg:items-center min-h-[300px]">
             {/* Left Content (Text) */}
@@ -129,7 +129,7 @@ const C1 = () => {
               <div className="flex flex-wrap items-center gap-y-3">
                 <button 
                   onClick={handleEnroll}
-                  className="bg-green-600 text-white px-4 sm:px-6 py-2 rounded-md mr-4 mb-2 w-full sm:w-auto hover:bg-green-700 transition"
+                  className="bg-purple-600 text-white px-4 sm:px-6 py-2 rounded-md mr-4 mb-2 w-full sm:w-auto hover:bg-green-700 transition"
                 >
                   Enroll Now
                 </button>
@@ -158,7 +158,7 @@ const C1 = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4">
                 {course.features.map((feature, index) => (
                   <div key={index} className="flex items-start">
-                    <svg className="w-5 h-5 text-green-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <svg className="w-5 h-5 text-purple-500 mr-2 mt-1 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
                     </svg>
                     <span className="text-gray-700 dark:bg-slate-900 dark:text-white">{feature}</span>
@@ -219,7 +219,7 @@ const C1 = () => {
                 
                 <button 
                   onClick={handleBuyNow}
-                  className="w-full bg-green-600 text-white py-2 rounded-md mb-3 hover:bg-green-700 transition"
+                  className="w-full bg-purple-600 text-white py-2 rounded-md mb-3 hover:bg-green-700 transition"
                 >
                   Buy Now
                 </button>

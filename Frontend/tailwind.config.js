@@ -16,6 +16,7 @@ export default {
   }
 }
 
+
 // module.exports = {
 //   darkMode: "class", // Ensure it's "class" (or remove this line)
 //   plugins: [require("daisyui")],

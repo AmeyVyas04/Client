@@ -24,12 +24,12 @@ function Cards({ item }) {
             {/* Card content */}
             <div 
                 className="relative bg-white dark:bg-slate-800 rounded-2xl shadow-lg overflow-hidden 
-                    border-4 border-gray-300 dark:border-gray-600 h-auto md:h-90 lg:h-90"
+                    border-4 border-gray-300 dark:border-gray-600 h-auto md:h-90 lg:h-90 lg:w-80"
             >
                 {/* Course Image */}
                 <figure className="relative">
                     <img 
-                        className="md:w-full w-96 justify-center h-56 md:h-40 lg:h-60 object-cover border-b-4 border-gray-300 dark:border-gray-600"
+                        className="md:w-full w-80 justify-center h-56 md:h-40 lg:w-80 lg:h-60 object-cover border-b-4 border-gray-300 dark:border-gray-600"
                         src={item.image}
                         alt={`${item.name} Course Image`}
                         loading="lazy"
