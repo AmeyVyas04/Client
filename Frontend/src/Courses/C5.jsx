@@ -67,14 +67,14 @@ const C5 = () => {
   
   const handleEnroll = () => {
     // Implement enrollment logic here
-    window.location.href = 'https://www.momentrade.com/courses/646617'; 
+    window.location.href = 'https://www.momentrade.com/courses/660793?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp'; 
     // This could redirect to a checkout page or open a modal
   };
   
   
   const handleBuyNow = () => {
     // Implement buy now logic here
-    window.location.href = 'https://www.momentrade.com/courses/646617'; 
+    window.location.href = 'https://www.momentrade.com/courses/660793?utm_source%3Dother%26utm_medium%3Dtutor-course-referral%26utm_campaign%3Dcourse-overview-webapp'; 
     // This could redirect to a checkout page
   };
 
