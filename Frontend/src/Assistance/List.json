@@ -6,7 +6,7 @@
         "title": "Software Engineer", 
         "price": 0,
         "catagory": "Paid",
-        "image": "course1.jpeg"
+        "image": "1.png"
     },
     {
         "id": "2",
@@ -27,21 +27,22 @@
         "image": "3.png"
     },
     {
-        "id": "4",
-        "endpoint":"Option Selling Mastery Course Hindi",
-        "name": "Option Selling Mastery Course Hindi",
-        "title": "UX Researcher",
-        "price": 0,
-        "catagory": "Paid",
-        "image": "4.png"
+      "id": "4",
+      "endpoint": "option-selling-mastery-course-hindi",
+      "name": "Option Selling Mastery Course Hindi",
+      "title": "UX Researcher",
+      "price": 0,
+      "catagory": "Paid",
+      "image": "4.png"
     },
     {
-        "id": "5",
-        "endpoint":"Order Flow Mastery Course Hindi",
-        "name": "Order Flow Mastery Course Hindi",
-        "title": "Project Manager",
-        "price": 0,
-        "catagory": "Paid",
-        "image": "5.png"
+      "id": "5",
+      "endpoint": "order-flow-mastery-course-hindi",
+      "name": "Order Flow Mastery Course Hindi",
+      "title": "Project Manager",
+      "price": 0,
+      "catagory": "Paid",
+      "image": "course1.jpeg"
     }
-]
+  ]
+  

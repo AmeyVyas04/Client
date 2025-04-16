@@ -15,12 +15,12 @@ const C1 = () => {
       
         const mockData = {
           id: 1,
-          title: "Order Flow Intraday Mastery – Live Batch (Hindi)",
+          title: "Order Flow Intraday Mastery (Recorded)",
           subtitle: "Master the Hidden Forces Behind Market Movements",
           price: "12,499",
           originalPrice:1,
           discount: "Upto 30% Off",
-          imageUrl: "/course1.jpeg",
+          imageUrl: "/1.png",
           description: "Are you tired of using lagging indicators that fail to give you an edge? Do you want to understand the real-time intentions of institutional traders? Welcome to Order Flow Intraday Course—a structured program designed to transform your trading. Learn how institutional traders move the markets and develop a deep understanding of order flow, delta analysis, and execution strategies.",
           features: [
             "Market Dynamics: Track institutional traders and understand their impact on price movement",
@@ -41,11 +41,11 @@ const C1 = () => {
             "A subscription to order flow charting software (GoCharting preferred)."
           ],
           details: {
-            format: "Live classes via Google Meet",
+            format: "Pre-recorded online course",
             language: "Hindi",
             skillLevel: "Basic to Advanced",
             access: "1-year full access",
-            sessions: "8 sessions saturday-Sunday 6.30-8.30 pm",
+            sessions: "Structured learning modules",
             recordedContent: "Available anytime on Web, Android, and iOS"
           },
           contactNumber: "+91 8080823091"
@@ -116,7 +116,7 @@ const C1 = () => {
       </div>
       
       {/* Added margin-top to prevent overlap */}
-      <div className="bg-gradient-to-r from-purple-100 to-purple-400 py-8">
+      <div className="bg-gradient-to-r from-green-50 to-green-400 py-8">
         <div className="container mx-auto px-4">
           <div className="flex flex-col lg:flex-row mt-8 items-start lg:items-center min-h-[300px]">
             {/* Left Content (Text) */}
@@ -129,7 +129,7 @@ const C1 = () => {
               <div className="flex flex-wrap items-center gap-y-3">
                 <button 
                   onClick={handleEnroll}
-                  className="bg-purple-600 text-white px-4 sm:px-6 py-2 rounded-md mr-4 mb-2 w-full sm:w-auto hover:bg-green-700 transition"
+                  className="bg-green-600 text-white px-4 sm:px-6 py-2 rounded-md mr-4 mb-2 w-full sm:w-auto hover:bg-green-700 transition"
                 >
                   Enroll Now
                 </button>
